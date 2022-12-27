@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: sandboxSolidity
+web3j:
+  client-address: http://127.0.0.1:8545
+server:
+  port: ${PORT:8090}

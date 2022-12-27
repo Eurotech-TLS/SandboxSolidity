@@ -15,7 +15,8 @@ public class BlockchainTransaction {
 
 
 	public BlockchainTransaction(int formId, int toId, long value) {
-		super();
+		//super();
+		System.out.println("====================================");
 		this.fromId = formId;
 		this.toId = toId;
 		this.value = value;
